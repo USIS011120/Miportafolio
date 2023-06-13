@@ -1,0 +1,22 @@
+############################# MY EMAILJS SERVICE
+Email JS Name Service: Outlook
+Email JS Service ID: personal_outlook
+Email JS Email: eliasparadalozano@hotmail.com
+Outlook App Password
+qqesgjiijjzwutep
+
+############################# MY EMAILJS TEMPLATE
+Email JS Name Template: Personal Template
+Email JS Template ID: template_hy6c8ty
+
+############################# FLOR EMAILJS SERVICE (With My Email For Now)
+Email JS Name Service: Outlook
+Email JS Service ID: service_jj0e1ns
+Email JS Email: eliasparadalozano@gmail.com
+
+############################# FLOR EMAILJS TEMPLATE
+Email JS Name Template: Flor Template
+Email JS Template ID: template_ip7xg6i
+
+############################# USER DATA
+Public User Key: gGqUr5jdcSqVwjRy4

@@ -1,10 +1,8 @@
-function cambiarIdioma() {
-    const btn = document.getElementById('langBtn');
-    
-    let opt = btn.getAttribute('data-opt');
+let currentLang = 'es';
+
+function cambiarIdioma(opt) {
     Object.keys(lang[opt]).forEach(key => {
         const text = lang[opt][key];
-        console.log({text, key});
         document.querySelectorAll('[data-lang="' + key + '"]').forEach(el => {
           el.innerHTML = text;
         });
@@ -14,8 +12,10 @@ function cambiarIdioma() {
     } else {
         btn.setAttribute('data-opt', 'es');
     }
+    localStorage.setItem('lang', opt);
+}
 
-  }
+const btn = document.getElementById('langBtn');
 
 let lang = {
     es: {
@@ -77,13 +77,9 @@ let lang = {
         sob:"Proyectos",
         conts:"Contacto",
         esp:"Proyectos",
-
-
-
-
-
-       
-
+        contactme: "Contactame",
+        subject: "Asunto",
+        send: "Enviar Correo",
     },
     en: {
         title: "Hello",
@@ -144,10 +140,23 @@ let lang = {
         ini:"About me",
         s:"About me",
         conts:"Contact",
-
-
-
-
-
+        contactme: "Contact me",
+        subject: "Subject",
+        send: "Send Email",
     },
+}
+
+btn.addEventListener('click', function () {
+    let opt = btn.getAttribute('data-opt')
+    currentLang = opt;
+    cambiarIdioma(opt);
+});
+
+if (!localStorage.getItem('lang')) {
+    localStorage.setItem('lang', 'es');
+    currentLang = 'es';
+    cambiarIdioma('es');
+} else {
+    currentLang = localStorage.getItem('lang');
+    cambiarIdioma(localStorage.getItem('lang'));
 }
