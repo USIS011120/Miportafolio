@@ -1,0 +1,14 @@
+{
+    "titulo" : {
+        "es" : "Hola, soy <span class='text-blue-500'>Flor Mabel Ariza Rodríguez</span>",
+        "en" : "Hello, I'm <span class='text-blue-500'>Flor Mabel Ariza Rodríguez</span>"
+    },
+    "subtitulo" : {
+        "es" : "Apasionada por el QA Testing",
+        "en" : "Passionate about QA Testing"
+    },
+    "contacto" : {
+        "es" : "Contacto",
+        "en" : "Contact"
+    }
+}

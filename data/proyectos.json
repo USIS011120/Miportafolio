@@ -1,0 +1,64 @@
+{
+    "titulo" : {
+        "es" : "PROYECTOS",
+        "en" : "PROJECTS"
+    },
+    "subtitulo" : {
+        "es" : "Algunos de los proyectos en los que he trabajado",
+        "en" : ""
+    },
+    "proyectos" : {
+        "panapp" : {
+            "nombre" : "PanApp",
+            "descripcion" : {
+                "es" : "Esta aplicación móvil fue desarrollada en un entorno educativo, su función principal es registrar pedidos de un restaurante mediante un usuario previamente registrado.",
+                "en" : "This mobile application was developed in an educational environment, its main function is to register orders from a restaurant through a previously registered user."
+            },
+            "equpo" : {
+                "es" : "Desarollada por: Roger Zelaya, Allison Sosa, Elmer Reyes , Flor Ariza.",
+                "en" : "Developed by: Roger Zelaya, Allison Sosa, Elmer Reyes, Flor Ariza."
+            },
+            "rol" : {
+                "es" : "Rol desempeñado: Desarrolladora front-end.",
+                "en" : "Role performed: Front-end developer."
+            },
+            "entorno" : {
+                "es" : "Entorno de desarrollo: Android Studio.",
+                "en" : "Development environment: Android Studio."
+            },
+            "fecha" : {
+                "es" : "Año de creación: 2021.",
+                "en" : "Year created: 2021."
+            },
+            "imagenes" : [
+                "img/proyectos/panapp/1.webp"
+            ]
+        },
+        "easy-price" : {
+            "nombre" : "Easy Price",
+            "descripcion" : {
+                "es" : "Aplicación web desarrollada en entorno educativo, su función principal es de comparar precios de los comercios más cercanos de la localidad del usuario, con filtros de búsqueda basados en variables de búsqueda que el usuario puede modificar a lo que mejor se adapte.",
+                "en" : "Web application developed in an educational environment, its main function is to compare prices of the shops closest to the user's location, with search filters based on search variables that the user can modify to what best suits them."
+            },
+            "equpo" : {
+                "es" : "Desarrollado por: Duma Mejía ,José Maravilla, Roberto Meléndez, Roger Zelaya y Flor Ariza.",
+                "en" : "Developed by: Duma Mejía, José Maravilla, Roberto Meléndez, Roger Zelaya and Flor Ariza."
+            },
+            "rol" : {
+                "es" : "Rol desempeñado: QA/Tester.",
+                "en" : "Role performed: QA/Tester."
+            },
+            "entorno" : {
+                "es" : "Entorno de desarrollo: Visual Studio.",
+                "en" : "Development environment: Visual Studio."
+            },
+            "fecha" : {
+                "es" : "Año de creación: 2022.",
+                "en" : "Creation year: 2022."
+            },
+            "imagenes" : [
+                "img/proyectos/easy-price/1.webp"
+            ]
+        }
+    }
+}

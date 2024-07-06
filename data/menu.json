@@ -1,0 +1,30 @@
+{
+    "secciones" : {
+        "inicio" : {
+            "es" : "Inicio",
+            "en" : "Home"
+        },
+        "sobre-mi" : {
+            "es" : "Sobre mí",
+            "en" : "About me"
+        },
+        "proyectos" : {
+            "es" : "Proyectos",
+            "en" : "Projects"
+        },
+        "testimonios" : {
+            "es" : "Testimonios",
+            "en" : "Testimonials"
+        },
+        "contacto" : {
+            "es" : "Contacto",
+            "en" : "Contact"
+        }
+    },
+    "otros" : {
+        "idioma" : {
+            "es" : "Idioma",
+            "en" : "Languaje"
+        }
+    }
+}
