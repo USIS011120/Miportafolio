@@ -1,0 +1,29 @@
+{
+    "titulo" : {
+        "es" : "Mis habilidades",
+        "en" : "My abilitys"
+    },
+    "herramientas" : {
+        "azure" : {
+            "name" : {
+                "es" : "Azure DevOps",
+                "en" : "Azure DevOps"
+            },
+            "icon" : "img/icons/devops.svg"
+        },
+        "kanban": {
+            "name": {
+                "es": "Kanban",
+                "en": "Kanban"
+            },
+            "icon": "img/icons/kanban.svg"
+        },
+        "sonarqube": {
+            "name": {
+                "es": "SonarQube",
+                "en": "SonarQube"
+            },
+            "icon": "img/icons/sonarqube.svg"
+        }
+    }
+}
