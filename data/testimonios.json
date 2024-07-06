@@ -1,0 +1,27 @@
+{
+    "titulo" : {
+        "es" : "TESTIMONIOS",
+        "en" : ""
+    },
+    "subtitulo" : {
+        "es" : "Lo que dicen los clientes",
+        "en" : ""
+    },
+    "testimonios" : {
+        "uno" : {
+            "nombre": "Cliente 1",
+            "mensaje" : "Excelente trabajo y profesionalismo.",
+            "imagen" : "img/testimonials/1.webp"
+        },
+        "dos" : {
+            "nombre": "Cliente 2",
+            "mensaje" : "Muy satisfecha con los resultados.",
+            "imagen" : "img/testimonials/2.webp"
+        },
+        "tres" : {
+            "nombre": "Cliente 3",
+            "mensaje" : "Superó mis expectativas.",
+            "imagen" : "img/testimonials/3.webp"
+        }
+    }
+}
