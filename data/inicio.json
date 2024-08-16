@@ -1,14 +1,12 @@
 {
-    "titulo" : {
-        "es" : "Hola, soy <span class='text-blue-500'>Flor Mabel Ariza Rodríguez</span>",
-        "en" : "Hello, I'm <span class='text-blue-500'>Flor Mabel Ariza Rodríguez</span>"
+    "es": {
+        "title": "Hola, soy <span class='text-blue-500'>Flor Mabel Ariza Rodríguez</span>",
+        "subtitle": "Apasionada por el QA Testing",
+        "actionCall": "Contactame"
     },
-    "subtitulo" : {
-        "es" : "Apasionada por el QA Testing",
-        "en" : "Passionate about QA Testing"
-    },
-    "contacto" : {
-        "es" : "Contacto",
-        "en" : "Contact"
+    "en": {
+        "title": "Hello, I'm <span class='text-blue-500'>Flor Mabel Ariza Rodríguez</span>",
+        "subtitle": "Passionate about QA Testing",
+        "actionCall": "Contact me"
     }
 }

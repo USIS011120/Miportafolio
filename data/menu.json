@@ -2,29 +2,35 @@
     "secciones" : {
         "inicio" : {
             "es" : "Inicio",
-            "en" : "Home"
+            "en" : "Home",
+            "activo" : true
         },
         "sobre-mi" : {
             "es" : "Sobre mí",
-            "en" : "About me"
+            "en" : "About me",
+            "activo" : true
         },
         "proyectos" : {
             "es" : "Proyectos",
-            "en" : "Projects"
+            "en" : "Projects",
+            "activo" : true
         },
         "testimonios" : {
             "es" : "Testimonios",
-            "en" : "Testimonials"
+            "en" : "Testimonials",
+            "activo" : true
         },
         "contacto" : {
             "es" : "Contacto",
-            "en" : "Contact"
+            "en" : "Contact",
+            "activo" : true
         }
     },
     "otros" : {
         "idioma" : {
             "es" : "Idioma",
-            "en" : "Languaje"
+            "en" : "Languaje",
+            "activo" : true
         }
     }
 }

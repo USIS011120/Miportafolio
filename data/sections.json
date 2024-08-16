@@ -1,0 +1,45 @@
+{
+    "sections": [
+      {
+        "id": "inicio",
+        "name": {
+          "es": "Inicio",
+          "en": "Home"
+        },
+        "active": true
+      },
+      {
+        "id": "sobre-mi",
+        "name": {
+          "es": "Sobre Mí",
+          "en": "About"
+        },
+        "active": true
+      },
+      {
+        "id": "proyectos",
+        "name": {
+          "es": "Proyectos",
+          "en": "Projects"
+        },
+        "active": true
+      },
+      {
+        "id": "testimonios",
+        "name": {
+          "es": "Testimonios",
+          "en": "Testimonials"
+        },
+        "active": false
+      },
+      {
+        "id": "contacto",
+        "name": {
+          "es": "Contacto",
+          "en": "Contact"
+        },
+        "active": true
+      }
+    ]
+  }
+  
