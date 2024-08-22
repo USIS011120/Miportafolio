@@ -11,3 +11,18 @@
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
 }
+
+.fade-in {
+    animation: fadeIn 2s ease-in-out;
+}
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+.slide-in {
+    animation: slideIn 1s ease-in-out;
+}
+@keyframes slideIn {
+    from { transform: translateX(-100%); }
+    to { transform: translateX(0); }
+}
