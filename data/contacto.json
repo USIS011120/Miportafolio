@@ -1,0 +1,42 @@
+{
+    "en": {
+        "titulo": "Contact",
+        "subtitulo": "Want to get in touch?",
+        "descripcion": "I'm always open to new opportunities and collaborations. If you have any questions, a project, or just want to say hello, feel free to send me a message. I'll respond as soon as possible!",
+        "nombreLabel": "Name",
+        "nombrePlaceholder": "Your name",
+        "emailLabel": "Email",
+        "emailPlaceholder": "Your email address",
+        "asuntoLabel": "Subject",
+        "asuntoPlaceholder": "Subject of the message",
+        "mensajeLabel": "Message",
+        "mensajePlaceholder": "Your message",
+        "enviarButton": "Send",
+        "redes": [
+            { "nombre": "LinkedIn", "url": "https://www.linkedin.com/in/flor-mabel-rodriguez/", "icono": "fa-brands fa-linkedin" },
+            { "nombre": "GitHub", "url": "https://github.com/USIS011120", "icono": "fa-brands fa-github" },
+            { "nombre": "Phone", "url": "tel:+50361816626", "icono": "fa-solid fa-phone" },
+            { "nombre": "Email", "url": "mailto:flormabel_ariza@outlook.com", "icono": "fa-solid fa-envelope" }
+        ]
+    },
+    "es": {
+        "titulo": "Contacto",
+        "subtitulo": "¿Deseas contactarme?",
+        "descripcion": "Estoy siempre abierta a nuevas oportunidades y colaboraciones. Si tienes alguna pregunta, proyecto o simplemente quieres saludar, no dudes en enviarme un mensaje. ¡Responderé lo más pronto posible!",
+        "nombreLabel": "Nombre",
+        "nombrePlaceholder": "Tu nombre",
+        "emailLabel": "Correo electrónico",
+        "emailPlaceholder": "Tu correo electrónico",
+        "asuntoLabel": "Asunto",
+        "asuntoPlaceholder": "Asunto del mensaje",
+        "mensajeLabel": "Mensaje",
+        "mensajePlaceholder": "Tu mensaje",
+        "enviarButton": "Enviar",
+        "redes": [
+            { "nombre": "LinkedIn", "url": "https://www.linkedin.com/in/flor-mabel-rodriguez/", "icono": "fa-brands fa-linkedin" },
+            { "nombre": "GitHub", "url": "https://github.com/USIS011120", "icono": "fa-brands fa-github" },
+            { "nombre": "Teléfono", "url": "tel:+50361816626", "icono": "fa-solid fa-phone" },
+            { "nombre": "Correo", "url": "mailto:flormabel_ariza@outlook.com", "icono": "fa-solid fa-envelope" }
+        ]
+    }
+}

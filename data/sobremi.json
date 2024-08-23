@@ -1,0 +1,106 @@
+{
+    "es": {
+        "titulo": "SOBRE MÍ",
+        "subtitulo": "Apasionada por el mundo del QA Testing",
+        "descripcion": "Soy Flor Mabel Ariza Rodríguez, una profesional dedicada y comprometida con la excelencia en el campo del QA Testing. Mi enfoque está en asegurar que cada producto entregue una calidad superior y una experiencia impecable para los usuarios. Con una atención meticulosa al detalle y una pasión por la precisión, me esfuerzo por superar las expectativas en cada proyecto. Creo firmemente en la importancia de un ambiente de trabajo colaborativo y en el poder de una comunicación efectiva para resolver problemas y alcanzar metas.",
+        "boton": "Descargar CV",
+        "herramientas": [
+            { "nombre": "Azure DevOps", "icono": "img/icons/devops.svg" },
+            { "nombre": "Kanban", "icono": "img/icons/kanban.svg" },
+            { "nombre": "SonarQube", "icono": "img/icons/sonarqube.svg" }
+        ],
+        "habilidades": [
+            {
+                "titulo": "Habilidades Duras",
+                "icono": "/img/icons/habilidades-duras.webp",
+                "items": [
+                    "Principios de UI/UX",
+                    "Gestión de proyectos y liderazgo de equipos en entorno educativo",
+                    "QA Testing",
+                    "Gestión de Proyectos"
+                ]
+            },
+            {
+                "titulo": "Habilidades Blandas",
+                "icono": "/img/icons/habilidades-blandas.webp",
+                "items": [
+                    "Gestión del tiempo",
+                    "Trabajo en equipo",
+                    "Adaptabilidad",
+                    "Responsabilidad"
+                ]
+            },
+            {
+                "titulo": "Valores Profesionales",
+                "icono": "/img/icons/valores.webp",
+                "items": [
+                    "Ética",
+                    "Responsabilidad",
+                    "Respeto",
+                    "Compromiso",
+                    "Empatía",
+                    "Honestidad"
+                ]
+            },
+            {
+                "titulo": "Objetivo",
+                "icono": "/img/icons/objetivo.webp",
+                "items": [
+                    "Aplicar mis habilidades, colaborar con equipos interdisciplinarios en proyectos desafiantes para seguir aprendiendo y mejorando mis habilidades"
+                ]
+            }
+        ]
+    },
+    "en": {
+        "titulo": "ABOUT ME",
+        "subtitulo": "Passionate about the world of QA Testing",
+        "descripcion": "I am Flor Mabel Ariza Rodríguez, a dedicated and committed professional to excellence in the field of QA Testing. My focus is on ensuring that each product delivers superior quality and a flawless experience for users. With meticulous attention to detail and a passion for precision, I strive to exceed expectations on every project. I firmly believe in the importance of a collaborative work environment and the power of effective communication to solve problems and achieve goals.",
+        "boton": "Download CV",
+        "herramientas": [
+            { "nombre": "Azure DevOps", "icono": "img/icons/devops.svg" },
+            { "nombre": "Kanban", "icono": "img/icons/kanban.svg" },
+            { "nombre": "SonarQube", "icono": "img/icons/sonarqube.svg" }
+        ],
+        "habilidades": [
+            {
+                "titulo": "Hard Skills",
+                "icono": "/img/icons/habilidades-duras.webp",
+                "items": [
+                    "UI/UX Principles",
+                    "Project management and team leadership in educational settings",
+                    "QA Testing",
+                    "Project Management"
+                ]
+            },
+            {
+                "titulo": "Soft Skills",
+                "icono": "/img/icons/habilidades-blandas.webp",
+                "items": [
+                    "Time management",
+                    "Teamwork",
+                    "Adaptability",
+                    "Responsibility"
+                ]
+            },
+            {
+                "titulo": "Professional Values",
+                "icono": "/img/icons/valores.webp",
+                "items": [
+                    "Ethics",
+                    "Responsibility",
+                    "Respect",
+                    "Commitment",
+                    "Empathy",
+                    "Honesty"
+                ]
+            },
+            {
+                "titulo": "Objective",
+                "icono": "/img/icons/objetivo.webp",
+                "items": [
+                    "Apply my skills, collaborate with interdisciplinary teams on challenging projects to continue learning and improving my abilities"
+                ]
+            }
+        ]
+    }
+}

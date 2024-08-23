@@ -18,7 +18,7 @@
         "testimonios" : {
             "es" : "Testimonios",
             "en" : "Testimonials",
-            "activo" : true
+            "activo" : false
         },
         "contacto" : {
             "es" : "Contacto",
