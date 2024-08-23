@@ -42,7 +42,10 @@
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
     <!-- Headless UI -->
     <link href="https://unpkg.com/@headlessui/react@latest/dist/headlessui.min.css" rel="stylesheet">
-
+    <!-- Toastr -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+        
     <link rel="stylesheet" href="css/styles.css">
 </head>
 
@@ -126,19 +129,19 @@
             <form id="formulario" class="w-full md:w-1/2">
                 <div class="mb-4" data-aos="fade-up" data-aos-delay="600">
                     <label for="name" id="nameLabel" class="block text-gray-700 translatable"></label>
-                    <input type="text" id="name" class="w-full px-4 py-2 border rounded translatable" placeholder="" required>
+                    <input type="text" name="nombre" id="name" class="w-full px-4 py-2 border rounded translatable" placeholder="" required>
                 </div>
                 <div class="mb-4" data-aos="fade-up" data-aos-delay="800">
                     <label for="email" id="emailLabel" class="block text-gray-700 translatable"></label>
-                    <input type="email" id="email" class="w-full px-4 py-2 border rounded translatable" placeholder="" required>
+                    <input type="email" name="correo" id="email" class="w-full px-4 py-2 border rounded translatable" placeholder="" required>
                 </div>
                 <div class="mb-4" data-aos="fade-up" data-aos-delay="1000">
                     <label for="subject" id="subjectLabel" class="block text-gray-700 translatable"></label>
-                    <input type="text" id="subject" class="w-full px-4 py-2 border rounded translatable" placeholder="" required>
+                    <input type="text" name="sujeto" id="subject" class="w-full px-4 py-2 border rounded translatable" placeholder="" required>
                 </div>
                 <div class="mb-4" data-aos="fade-up" data-aos-delay="1200">
                     <label for="message" id="messageLabel" class="block text-gray-700 translatable"></label>
-                    <textarea id="message" class="w-full px-4 py-2 border rounded translatable" rows="4" placeholder="" required></textarea>
+                    <textarea id="message" name="mensaje" class="w-full px-4 py-2 border rounded translatable" rows="4" placeholder="" required></textarea>
                 </div>
                 <button type="submit" id="enviar" class="bg-blue-500 text-white px-4 py-2 rounded translatable" data-aos="fade-up" data-aos-delay="1400"></button>
                 <div id="redesSociales" class="w-full mt-8 flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4">
@@ -180,7 +183,7 @@
     <script src="js/lang.js"></script>
 
     <script type="text/javascript">
-        emailjs.init("gGqUr5jdcSqVwjRy4");
+        emailjs.init("3TKcLSS1q0tyaNTdp");
     </script>
     <script type="text/javascript">
         window.onload = function() {
@@ -192,8 +195,8 @@
     
                 btn.value = 'Sending...';
     
-                const serviceID = 'personal_outlook';
-                const templateID = 'template_hy6c8ty';
+                const serviceID = 'service_7akbgc6';
+                const templateID = 'template_5z4eo2l';
     
                 emailjs.sendForm(serviceID, templateID, this)
                     .then(() => {
