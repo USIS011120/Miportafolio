@@ -32,20 +32,40 @@ async function cargarProyectos(language) {
             swiperSlide.className = 'swiper-slide flex-shrink-0 w-full text-center cursor-pointer';
             swiperSlide.setAttribute('data-index', index);
 
+            const imageContainer = document.createElement('div');
+            imageContainer.className = 'relative inline-block w-3/5';
+        
             const imgElement = document.createElement('img');
             imgElement.src = proyecto.imagenes[0];
             imgElement.alt = proyecto.nombre;
             imgElement.className = 'w-full h-auto shadow-lg aspect-video';
+
+            const openModalButton = document.createElement('button');
+            openModalButton.className = 'absolute bottom-4 right-4 bg-blue-800 text-white rounded-full p-3 shadow-lg hover:bg-blue-700 flex justify-center items-center';
+            openModalButton.innerHTML = '<i class="fa-solid fa-arrow-right"></i>';
+            openModalButton.setAttribute('data-index', index);
 
             const nameElement = document.createElement('p');
             nameElement.className = 'mt-2 font-bold translatable';
             nameElement.innerText = proyecto.nombre;
             nameElement.setAttribute('data-en', data['en'].proyectos[index].nombre);
             nameElement.setAttribute('data-es', data['es'].proyectos[index].nombre);
+            
+            openModalButton.addEventListener('click', (event) => {
+                event.stopPropagation();
+                const modalIndex = openModalButton.getAttribute('data-index');
+                const modal = document.querySelector(`.modal-project[data-index="${modalIndex}"]`);
+                if (modal) {
+                    modal.classList.remove('hidden');
+                }
+            });
 
-            swiperSlide.appendChild(imgElement);
+            imageContainer.appendChild(imgElement);
+            imageContainer.appendChild(openModalButton);
+        
+            swiperSlide.appendChild(imageContainer); 
             swiperSlide.appendChild(nameElement);
-
+        
             swiperWrapper.appendChild(swiperSlide);
 
             const modal = document.createElement('div');
@@ -92,7 +112,7 @@ async function cargarProyectos(language) {
             fechaModal.setAttribute('data-es', data['es'].proyectos[index].fecha);
 
             const imagenesContainer = document.createElement('div');
-            imagenesContainer.className = 'swiper-container';
+            imagenesContainer.className = 'swiper-container overflow-hidden';
             const swiperWrapperModal = document.createElement('div');
             swiperWrapperModal.className = 'swiper-wrapper';
 
@@ -108,6 +128,13 @@ async function cargarProyectos(language) {
                 swiperWrapperModal.appendChild(swiperSlideModal);
             });
 
+            const nextButton = document.createElement('div');
+            nextButton.id = `swiper-button-next-${index}`;            
+            const backButton = document.createElement('div');
+            backButton.id = `swiper-button-prev-${index}`;            
+            const pagination = document.createElement('div');
+            pagination.id = `swiper-pagination-${index}`;
+
             imagenesContainer.appendChild(swiperWrapperModal);
 
             const closeModalButton = document.createElement('button');
@@ -117,6 +144,9 @@ async function cargarProyectos(language) {
 
             modalContent.appendChild(closeModalButton);
             modalContent.appendChild(imagenesContainer);
+            modalContent.appendChild(nextButton);
+            modalContent.appendChild(backButton);
+            modalContent.appendChild(pagination);
             modalContent.appendChild(tituloModal);
             modalContent.appendChild(descripcionModal);
             modalContent.appendChild(equipoModal);
@@ -130,9 +160,13 @@ async function cargarProyectos(language) {
 
             new Swiper(imagenesContainer, {
                 loop: true,
+                navigation: {
+                    nextEl: `#swiper-button-next-${index}`,
+                    prevEl: `#swiper-button-prev-${index}`,
+                },
                 pagination: {
-                    el: '.swiper-pagination',
-                    clickable: true,
+                    el: `#swiper-pagination-${index}`,
+                    dynamicBullets: true,
                 },
             });
         });

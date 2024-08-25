@@ -8,11 +8,11 @@ async function cargarSobreMi(language) {
         sectionSobreMi.innerHTML = '';
 
         const herramientasContainer = document.createElement('div');
-        herramientasContainer.className = 'flex justify-evenly space-x-8 py-8';
+        herramientasContainer.className = 'flex flex-wrap justify-evenly md:space-x-8 py-8';
 
         content.herramientas.forEach((herramienta, index) => {
             const herramientaDiv = document.createElement('div');
-            herramientaDiv.className = 'bg-blue-500 text-black border-2 border-black p-4 rounded cursor-pointer hover:text-white hover:bg-blue-600 flex flex-col items-center justify-between h-40 w-40';
+            herramientaDiv.className = 'bg-blue-500 text-black border-2 border-black p-4 rounded cursor-pointer hover:text-white hover:bg-blue-600 flex flex-col items-center justify-between w-24 h-40 md:h-40 md:w-40';
             herramientaDiv.setAttribute('data-aos', 'fade-up');
             herramientaDiv.setAttribute('data-aos-duration', '800');
         

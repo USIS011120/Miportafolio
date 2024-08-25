@@ -24,6 +24,21 @@
                 "imagenes" : [
                     "img/proyectos/easy-price/1.webp"
                 ]
+            },
+            {
+                "nombre" : "Calzado Amaya",
+                "descripcion" : "Aplicación web desarrollada para la venta de zapatos artesanales, cuyo propósito es ofrecer una amplia variedad de calzado para hombres, mujeres y niños. Los usuarios pueden filtrar productos por categorías, precio y popularidad, personalizando su búsqueda para encontrar los productos que mejor se adapten a sus necesidades y gustos.",
+                "equipo" : "Desarrollado por: Elías Parada, William García, Flor Ariza.",
+                "rol" : "Rol desempeñado: QA/Tester.",
+                "entorno" : "Entorno de desarrollo: Visual Studio.",
+                "fecha" : "Año de creación: 2024.",
+                "imagenes" : [
+                    "img/proyectos/calzadoamaya/calzadoamaya-1.png",
+                    "img/proyectos/calzadoamaya/calzadoamaya-2.png",
+                    "img/proyectos/calzadoamaya/calzadoamaya-3.png",
+                    "img/proyectos/calzadoamaya/calzadoamaya-4.png",
+                    "img/proyectos/calzadoamaya/calzadoamaya-5.png"
+                ]
             }
         ]
     },
@@ -51,6 +66,21 @@
                 "fecha" : "Creation year: 2022.",
                 "imagenes" : [
                     "img/proyectos/easy-price/1.webp"
+                ]
+            },
+            {
+                "nombre" : "Calzado Amaya",
+                "descripcion" : "Web application developed for the sale of handmade shoes, whose purpose is to offer a wide variety of footwear for men, women and children. Users can filter products by category, price and popularity, personalizing their search to find the products that best suit their needs and tastes.",
+                "equipo" : "Developed by: Elías Parada, William García, Flor Ariza.",
+                "rol" : "Role performed: QA/Tester.",
+                "entorno" : "Development environment: Visual Studio.",
+                "fecha" : "Creation year: 2024.",
+                "imagenes" : [
+                    "img/proyectos/calzadoamaya/calzadoamaya-1.png",
+                    "img/proyectos/calzadoamaya/calzadoamaya-2.png",
+                    "img/proyectos/calzadoamaya/calzadoamaya-3.png",
+                    "img/proyectos/calzadoamaya/calzadoamaya-4.png",
+                    "img/proyectos/calzadoamaya/calzadoamaya-5.png"
                 ]
             }
         ]

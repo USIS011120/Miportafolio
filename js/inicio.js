@@ -31,7 +31,7 @@ async function cargarInicio(language) {
         buttonElement.setAttribute('data-es', data['es'].actionCall);
 
         const contenedorImagen = document.createElement('div');
-        contenedorImagen.className = 'absolute w-2/3 md:w-1/3 max-h-full bottom-0 right-0 flex justify-end items-center flex-col';
+        contenedorImagen.className = 'absolute w-2/3 md:w-2/5 lg:w-2/6 max-h-full bottom-0 right-0 flex justify-end items-center flex-col';
 
         const imagen = document.createElement('img');
         imagen.src = 'img/profile/me.png';

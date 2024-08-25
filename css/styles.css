@@ -52,6 +52,12 @@ body {
     min-height: 90vh;
 }
 
+@media (min-width: 768px) { /* md en Tailwind corresponde a min-width: 768px */
+    .md\:min-h-screen-90 {
+        min-height: 90vh;
+    }
+}
+
 /* Swiper Styles */
 .swiper-container {
     position: relative;
