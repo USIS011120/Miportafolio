@@ -1,7 +1,9 @@
 const languageButton = document.getElementById('language-button');
 const languageMenu = document.getElementById('language-menu');
+let currentLang = "es";
 
 function changeLanguage(language) {
+    currentLang = language;
     const translatableElements = document.querySelectorAll('.translatable');
 
     translatableElements.forEach(el => {

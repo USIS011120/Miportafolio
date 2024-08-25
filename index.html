@@ -42,9 +42,8 @@
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
     <!-- Headless UI -->
     <link href="https://unpkg.com/@headlessui/react@latest/dist/headlessui.min.css" rel="stylesheet">
-    <!-- Toastr -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+    <!-- Sweet Alert -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
         
     <link rel="stylesheet" href="css/styles.css">
 </head>
@@ -189,6 +188,29 @@
         window.onload = function() {
             const btn = document.getElementById('enviar');
             const form = document.getElementById('formulario');
+
+            const mensajes = {
+                es: {
+                    success: {
+                        title: 'Mensaje enviado',
+                        text: '¡Gracias por comunicarte conmigo!'
+                    },
+                    error: {
+                        title: 'Mensaje fallido',
+                        text: 'Vuelve a intentar más tarde'
+                    }
+                },
+                en: {
+                    success: {
+                        title: 'Message sent',
+                        text: 'Thank you for reaching out to me!'
+                    },
+                    error: {
+                        title: 'Message failed',
+                        text: 'Please try again later'
+                    }
+                }
+            };
     
             form.addEventListener('submit', function(event) {
                 event.preventDefault();
@@ -200,12 +222,22 @@
     
                 emailjs.sendForm(serviceID, templateID, this)
                     .then(() => {
-                        btn.value = 'Send Email';
-                        alert('Sent!');
+                        Swal.fire({
+                            icon: 'success',
+                            title: mensajes[currentLang].success.title,
+                            text: mensajes[currentLang].success.text,
+                            showConfirmButton: false,
+                            timer: 1500
+                        });
                         form.reset();
                     }, (err) => {
-                        btn.value = 'Send Email';
-                        alert('Failed to send. Please try again.');
+                        Swal.fire({
+                            icon: 'error',
+                            title: mensajes[currentLang].error.title,
+                            text: mensajes[currentLang].error.text,
+                            showConfirmButton: false,
+                            timer: 1500
+                        });
                         console.error(err);
                     });
             });
