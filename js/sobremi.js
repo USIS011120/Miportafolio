@@ -72,7 +72,9 @@ async function cargarSobreMi(language) {
         const buttonContainer = document.createElement('div');
         buttonContainer.className = 'flex justify-center md:justify-start space-x-4';
 
-        const buttonElement = document.createElement('button');
+        const buttonElement = document.createElement('a');
+        buttonElement.href = '/files/cv.pdf';
+        buttonElement.download = 'cv.pdf';
         buttonElement.className = 'action bg-blue-500 text-white px-4 py-2 rounded translatable';
         buttonElement.innerText = content.boton;
         buttonElement.setAttribute('data-en', data['en'].boton);
