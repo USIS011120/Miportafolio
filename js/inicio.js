@@ -34,7 +34,7 @@ async function cargarInicio(language) {
         contenedorImagen.className = 'absolute w-2/3 md:w-2/5 lg:w-2/6 max-h-full bottom-0 right-0 flex justify-end items-center flex-col';
 
         const imagen = document.createElement('img');
-        imagen.src = 'img/profile/me.png';
+        imagen.src = 'img/profile/me.webp';
         imagen.alt = 'Flor Mabel Ariza Rodríguez';
 
         contenedorTexto.appendChild(titleElement);

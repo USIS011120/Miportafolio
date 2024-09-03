@@ -42,7 +42,7 @@ async function cargarSobreMi(language) {
         imgContainer.className = 'flex items-center flex.col justify-center md:w-2/5';
 
         const imgElement = document.createElement('img');
-        imgElement.src = 'img/profile/front.png';
+        imgElement.src = 'img/profile/front.webp';
         imgElement.alt = 'Flor Mabel Ariza Rodríguez';
         imgElement.className = 'w-4/5 md:w-full rounded-lg';
 
@@ -138,6 +138,7 @@ async function cargarSobreMi(language) {
         sectionSobreMi.appendChild(presentacionContainer);
         sectionSobreMi.appendChild(habilidadesContainer);
 
+        setupSmoothScroll();
     } catch (error) {
         console.error('Error loading About Me section:', error);
     }
