@@ -3,19 +3,7 @@
         "titulo" : "PROYECTOS",
         "subtitulo" : "Algunos de los proyectos en los que he trabajado",
         "proyectos" : [
-            {
-                "nombre" : "PanApp",
-                "descripcion" : "Esta aplicación móvil fue desarrollada en un entorno educativo, su función principal es registrar pedidos de un restaurante mediante un usuario previamente registrado.",
-                "equipo" : "Desarollada por: Roger Zelaya, Allison Sosa, Elmer Reyes , Flor Ariza.",
-                "rol" : "Rol desempeñado: Desarrolladora front-end.",
-                "entorno" :  "Entorno de desarrollo: Android Studio.",
-                "fecha" : "Año de creación: 2021.",
-                "imagenes" : [
-                    "img/proyectos/panapp/1.webp"
-                ]
-            },
-            {
-                "nombre" : "Easy Price",
+            {   "nombre" : "Easy Price",
                 "descripcion" : "Aplicación web desarrollada en entorno educativo, su función principal es de comparar precios de los comercios más cercanos de la localidad del usuario, con filtros de búsqueda basados en variables de búsqueda que el usuario puede modificar a lo que mejor se adapte.",
                 "equipo" : "Desarrollado por: Duma Mejía ,José Maravilla, Roberto Meléndez, Roger Zelaya y Flor Ariza.",
                 "rol" : "Rol desempeñado: QA/Tester.",
@@ -24,6 +12,18 @@
                 "imagenes" : [
                     "img/proyectos/easy-price/1.webp"
                 ]
+               
+            },
+            {   "nombre" : "D-Health",
+                "descripcion" : "Aplicación web que ofrece información sobre enfermedades, medicamentos y servicios médicos. Permite a los usuarios agendar citas médicas en línea, realizar consultas virtuales y recibir recomendaciones personalizadas sobre salud.",
+                "equipo" : "Desarrollado por: Duma Mejía ,José Maravilla, Roberto Meléndez, Roger Zelaya y Flor Ariza.",
+                "rol" : "Rol desempeñado: QA/Tester.",
+                "entorno" :  "Entorno de desarrollo: Visual Studio.",
+                "fecha" : "Año de creación: 2023.",
+                "imagenes" : [
+                "img/proyectos/panapp/2.webp"
+                 ]
+                
             },
             {
                 "nombre" : "Calzado Amaya",
@@ -47,17 +47,6 @@
         "subtitulo" : "Some of the projects I have worked on",
         "proyectos" : [
             {
-                "nombre" : "PanApp",
-                "descripcion" : "This mobile application was developed in an educational environment, its main function is to register orders from a restaurant through a previously registered user.",
-                "equipo" : "Developed by: Roger Zelaya, Allison Sosa, Elmer Reyes, Flor Ariza.",
-                "rol" : "Role performed: Front-end developer.",
-                "entorno" :  "Development environment: Android Studio.",
-                "fecha" : "Year created: 2021.",
-                "imagenes" : [
-                    "img/proyectos/panapp/1.webp"
-                ]
-            },
-            {
                 "nombre" : "Easy Price",
                 "descripcion" : "Web application developed in an educational environment, its main function is to compare prices of the shops closest to the user's location, with search filters based on search variables that the user can modify to what best suits them.",
                 "equipo" : "Developed by: Duma Mejía, José Maravilla, Roberto Meléndez, Roger Zelaya and Flor Ariza.",
@@ -67,6 +56,17 @@
                 "imagenes" : [
                     "img/proyectos/easy-price/1.webp"
                 ]
+            },
+            {   "nombre" : "D-Health",
+                "descripcion" : "Web application that offers information about diseases, medications and medical services. It allows users to schedule medical appointments online, conduct virtual consultations and receive personalized health recommendations.",
+                "equipo" : "Developed by: Duma Mejía, José Maravilla, Roberto Meléndez, Roger Zelaya and Flor Ariza.",
+                "rol" : "Role performed: QA/Tester.",
+                "entorno" :  "Development environment: Visual Studio.",
+                "fecha" : "Year created: 2023.",
+                "imagenes" : [
+                    "img/proyectos/panapp/2.webp"
+                ]
+                
             },
             {
                 "nombre" : "Calzado Amaya",
